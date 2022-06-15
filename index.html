@@ -1,0 +1,115 @@
+<!DOCname html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="index.css">
+    <title>Calculate Your Score</title>
+</head>
+<body>
+    <header>
+        <section class="container text-center">
+            <h1 class="h1 mt-5  ">Calculate Your Average</h1>
+            <h2 class="h6 mt-4">This site is designed for ITU Prep class students to calculate their average score.</h2>
+        </section>
+    </header>
+    <main>
+        
+        <section class="container">
+            <div class="calform mx-auto">
+                <h4>1. Term</h4>
+                <div class="form-floating mb-3">
+                    <input  type="number"  name="" class="form-control" id="Cumulative-1" placeholder="Score">
+                    <label for="Cumulative-1">Cumulative 1</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input  type="number"  name="" class="form-control" id="Cumulative-2" placeholder="Score">
+                    <label for="Cumulative-2">Cumulative 2</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input  type="number"  name="" class="form-control" id="Writing" placeholder="Score">
+                    <label for="Writing">Writing</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input  type="number"  name="" class="form-control" id="Speaking" placeholder="Score">
+                    <label for="Speaking">Speaking</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input  type="number"  name="" class="form-control" id="Portfolio-Assignment" placeholder="Score">
+                    <label for="Portfolio-Assignment">Portfolio Assignment</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input  type="number"  name="" class="form-control" id="Basic-Course-Assignment" placeholder="Score">
+                    <label for="Basic-Course-Assignment">Basic Course Assignment</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input  type="number"  name="" class="form-control" id="MidYear" placeholder="Score">
+                    <label for="MidYear">Mid Year</label>
+                </div>
+                <div>
+                    <button type="button" 
+                     onclick="islemYap()"   
+                    id="firsttermbtn" class="btn btn-primary" >Calculate For 1. Term</button>
+                </div>
+                <div><h4  class="mt-1 text-success display" id="term1"></h4></div>
+            </div>
+        </section>
+        <section class="container mt-3">
+            <div class="mx-auto calform">
+                <h4>2. Term</h4>
+                <div class="form-floating mb-3">
+                    <input  type="number"  name="" class="form-control" id="Cumulative-3" placeholder="Score">
+                    <label for="Cumulative-3">Cumulative 3</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input  type="number"  name="" class="form-control" id="Cumulative-4" placeholder="Score">
+                    <label for="Cumulative-4">Cumulative 4</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input  type="number"  name="" class="form-control" id="Writing2" placeholder="Score">
+                    <label for="Writing2">Writing</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input  type="number"  name="" class="form-control" id="Speaking2" placeholder="Score">
+                    <label for="Speaking2">Speaking</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input  type="number"  name="" class="form-control" id="Portfolio-Assignment2" placeholder="Score">
+                    <label for="Portfolio-Assignment2">Portfolio Assignment</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input  type="number"  name="" class="form-control" id="Basic-Course-Assignment2" placeholder="Score">
+                    <label for="Basic-Course-Assignment2">Basic Course Assignment</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input  type="number"  name="" class="form-control" id="EndYear" placeholder="Score">
+                    <label for="EndYear">End Year</label>
+                </div>
+                <div>
+                    <button id="allyearbtn" type="button" class="btn btn-primary">Calculate For All Year</button>
+                </div>
+                <div><h4  class="mt-2 text-success display" id="term2"></h4></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer2 bg-primary color-white  mt-5">
+            <div style="height: 100%;" class="container d-flex justify-content-center align-items-center
+            ">
+                <div class="text-white">
+                    <h2>Designed by Bunyamin Korkut</h2>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- javascript -->
+    <script src="index.js"></script>
+</body>
+</html>
