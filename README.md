@@ -1,2 +1,2 @@
 # Average-Score
-https://average-score-calculater.netlify.app/
+DEMO: https://bunyamink2.github.io/Average-Score/
